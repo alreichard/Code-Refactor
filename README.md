@@ -1,1 +1,12 @@
 # Code-Refactor
+
+## Description
+In this project I refactored the Html and Css code for the website of a company called Horiseon. I added updates, made it more user friendly, and imporved it's organization. Through this README, I will be walking through all the aspects that I changed. 
+
+The first task I completed was to change the class attributes into more specific semantics. Semantics help to organize the layout, and are an alternative to the <div> container option. An example of this was in the main section of the website, where I changed the divs to an article semantic with section semantics as the inner workings. This helped to show the different parts of the HTML more clearly. 
+
+The next aspect was making the site more user friendly. Firt, I gave the website a new title, because its old one was "title". The new title, "Horiseon| online brand marketing", gave potential viewers a better understanding of what the site is, increasing their likelyhood of visiting. I also added alt attributes, which describes each image on the page. This is helpful because the writing will replace the image incase the picture wont load, and it will also allow visual inpaired visitors to understand what the pictures are by using a site reader app. 
+
+The last part of my work was making the code more organized and less repetative.In the HTML, the classes had identical ID elements written in, so I removed the ids. The Css had multiple classes that had the same Css attributes attached to them, so I combined them to make it shorter and less repetative. The section of the code that lays on the side of the page was written below the main article in the HTML, but above it in the Css, so I changed its position in the Css to match with the HTML placement. 
+
+I built this project to learn about specific attributes of a program that may not improve the visual appearance of the project, but still add to it. I learned that in order for a program to be good, you have to pay attention to more than just the physical elements, but also consider how people interact with it. We, as programmers, want to make a good viewing experience for both people looking at the programming elements and the front end website. 
